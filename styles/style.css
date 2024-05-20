@@ -1,6 +1,7 @@
 @font-face {
     font-family: "GROBOLD";
-    src: url(../fonts/Grobold/GROBOLD.ttf);
+    src: url("../fonts/Grobold/GROBOLD.ttf");
+    
 }
 
 @font-face {
@@ -30,6 +31,7 @@ header {
     color: white;
     padding: 11px 16px 0;
     margin-bottom: 19px;
+    color: var(--tg-theme-text-color);
 }
 
 .subtitle {
